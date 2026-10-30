@@ -127,7 +127,7 @@ public class Launcher extends Application{
 		Menu menuHelp = new Menu("Help");
 		MenuItem item1 = new MenuItem("About");
 		item1.setOnAction(e->{aboutWindow.display("About JS Server Roles/Users extractor", "Version: JS Server Roles/Users Extractor (1.0.0)",
-				"This program extracts users and roles from Jaspersoft server.\nAn Excel file is generated based on the extracted data for further review of access rights.\n\nFor more information please contact:", "fekolkins@gmail.com",
+				"This program extracts users and roles from Jaspersoft server.\nAn Excel file is generated based on the extracted data for further review of access rights.\n\nFor more information please contact:", "github.com/RomFek",
 				"Program created in 2018.");});
 		menuHelp.getItems().add(item1);
 		MenuBar menuBar = new MenuBar();
