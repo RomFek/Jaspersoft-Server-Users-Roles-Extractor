@@ -42,9 +42,8 @@ on these libraries, which you need to add to the classpath:
 - Apache Commons HttpClient 3.x
 - Log4j
 
-Run `Launcher` to start the tool. The `.classpath` file contains absolute paths
-from the original development machine. Update them to your own library
-locations.
+Run `Launcher` to start the tool. Set up the project in your IDE (Eclipse or IntelliJ)
+and add the libraries above to its classpath.
 
 ## Notes
 
